@@ -72,6 +72,12 @@ section {
 #keys .operator {
     background-color: brown;
 }
+.key:hover {
+    opacity: 80%;
+}
+.key:active {
+    opacity: 35%;
+}
 
 .special {
     font-size: 3vh;
