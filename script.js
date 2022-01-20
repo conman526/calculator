@@ -6,7 +6,7 @@ function inputs () { // logs what the user inputted into an object array.
     input.forEach(button => button.addEventListener('click', function() {
             let which = this.id;
             let numOp = '';
-            if (this.className == "key") {
+            if (this.className == "key") { 
                 numOp = "number";
             } else {
                 numOp = "operator";
