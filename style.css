@@ -41,7 +41,7 @@ section {
 #display {
     background-color: white;
 }
-#keys {
+#keys { 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -71,6 +71,12 @@ section {
 
 #keys .operator {
     background-color: brown;
+}
+.key:hover {
+    opacity: 80%;
+}
+.key:active {
+    opacity: 35%;
 }
 
 .special {
